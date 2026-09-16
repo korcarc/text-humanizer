@@ -14,7 +14,7 @@ humanizer.run_sync()
 def _banner() -> Panel:
     return Panel.fit(
         f"[bold cyan]text-humanizer[/bold cyan] [dim]v{__version__}[/dim]\n"
-        "[dim]Deepseek — type /help for commands, /exit to quit[/dim]",
+        "[dim]Deepseek — type /help for commands, /exit to quit[/dim]", 
         border_style="cyan",
     )
 
